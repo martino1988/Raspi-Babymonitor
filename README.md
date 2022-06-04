@@ -13,7 +13,7 @@
 
 ### RPi-Cam-Web-Interface
 
-https://elinux.org/RPi-Cam-Web-Interface
+see: https://elinux.org/RPi-Cam-Web-Interface
 
 > sudo apt-get update -y
 
@@ -29,6 +29,7 @@ https://elinux.org/RPi-Cam-Web-Interface
 
 ### Icecast 2
 
+see: https://wiki.ubuntuusers.de/Icecast2/
         
 > sudo apt-get install icecast2
 
@@ -37,6 +38,7 @@ choose your configuration
 
 ### Darkice
 
+see: https://wiki.ubuntuusers.de/Darkice/ 
         
 > sudo apt-get install darkice
 
