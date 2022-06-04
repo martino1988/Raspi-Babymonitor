@@ -25,6 +25,8 @@ cd RPi_Cam_Web_Interface
         
 sudo apt-get install icecast2
 
+> choose your configuration
+
 
 ### Darkice
 
