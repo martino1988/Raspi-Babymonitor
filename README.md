@@ -13,11 +13,16 @@
 
 ### RPi-Cam-Web-Interface
 
-sudo apt-get update
-sudo apt-get dist-upgrade
+sudo apt-get update -y
+
+sudo apt-get dist-upgrade -y
+
 sudo apt-get install git
+
 git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
+
 cd RPi_Cam_Web_Interface
+
 ./install.sh
 
 ### Icecast 2
