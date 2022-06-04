@@ -46,7 +46,7 @@ see: https://wiki.ubuntuusers.de/Darkice/
 
 > sudo nano /etc/darkice.cfg
 
-goto darkice.cfg
+insert lines from file darkice.cfg (→ this repo!)
 
 > crontab -e
 
