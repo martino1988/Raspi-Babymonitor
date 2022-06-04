@@ -13,13 +13,38 @@
 
 ## Installation
 
-### RPi-Cam-Web-Interface
+### Raspi
 
-see: https://elinux.org/RPi-Cam-Web-Interface
+burn image on sd card (e.g with raspberry pi imager) → use Raspberry Pi OS Lite (32-bit)
+
+add a "ssh" file to the image-folder (standard credentials are pi:raspberry)
+
+insert ssd card, ethernet cable and power up the raspberry
+
+check the ip address from your router
+
+open a shell (e.g. powershell)
+
+> ssh pi@ip.add.re.ss (e.g. ssh pi@192.168.1.3)
+
+enter password
+
+Do updates:
 
 > sudo apt-get update -y
 
 > sudo apt-get dist-upgrade -y
+
+
+### RPi-Cam-Web-Interface
+
+see: https://elinux.org/RPi-Cam-Web-Interface
+
+> sudo raspi-config
+
+> 3 Interface Options
+
+> P1 Camera (→ enable and reboot)
 
 > sudo apt-get install git
 
