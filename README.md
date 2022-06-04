@@ -1,5 +1,7 @@
 # Baby-Monitor /-Phone
 
+![platzhalter-bild](https://user-images.githubusercontent.com/61902639/172023649-09c82b34-eaad-42e1-becf-c23e07b56fe2.jpg)
+
 ## Hardware
 
 - Raspi 3B
