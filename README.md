@@ -87,7 +87,11 @@ see: https://wiki.ubuntuusers.de/Darkice/
 
 insert lines from file darkice.cfg (→ this repo!)
 
+Darkice doesn't start at boot like icecast, so create a cronjob:
+
 > crontab -e
+
+instert at bottom:
 
 > @reboot sleep 30 && /bin/darkice -c /etc/darkice.cfg
 
