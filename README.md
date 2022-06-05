@@ -2,11 +2,6 @@
 
 ![babycam1](https://user-images.githubusercontent.com/61902639/172040013-4f7f03c0-b5ca-4cde-9fe8-233e38690191.jpeg)
 
-
-
-
-
-
 ![babycam4](https://user-images.githubusercontent.com/61902639/172040026-34df7361-f9d2-4e2c-9d98-550734a83264.jpeg)
 
 
@@ -90,4 +85,8 @@ insert lines from file darkice.cfg (→ this repo!)
 > @reboot sleep 30 && /bin/darkice -c /etc/darkice.cfg
 
 
+## TODO
 
+- Cablemanagement
+
+- Better Mount for the PiCam
