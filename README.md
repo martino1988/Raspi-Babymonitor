@@ -33,7 +33,7 @@ burn image on sd card (e.g with raspberry pi imager) → use Raspberry Pi OS Lit
 
 add a "ssh" file to the image-folder (standard credentials are pi:raspberry)
 
-insert ssd card, ethernet cable and power up the raspberry
+insert SSd Card, Ethernet-Cable, PiCam, Mic and power up the Raspi
 
 check the ip address from your router
 
