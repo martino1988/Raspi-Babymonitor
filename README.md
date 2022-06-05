@@ -9,7 +9,7 @@
 
 | Camview | Streamserver |
 |-------|------|
-|![Bildschirmfoto vom 2022-06-05 09-46-42](https://user-images.githubusercontent.com/61902639/172041158-917c207b-0e07-4759-bf35-0cacbb34e6d7.png)|![Bildschirmfoto vom 2022-06-05 09-55-22](https://user-images.githubusercontent.com/61902639/172041175-9e063f5f-a77c-42eb-943f-80cac2f82c48.png)|
+|![Bildschirmfoto vom 2022-06-05 09-46-42](https://user-images.githubusercontent.com/61902639/172041158-917c207b-0e07-4759-bf35-0cacbb34e6d7.png)|![Bildschirmfoto vom 2022-06-05 09-55-22(2)](https://user-images.githubusercontent.com/61902639/172042326-8f92bdaa-fdae-462f-ae0c-592cbfa634f9.png)|
 
 
 ## Hardware
