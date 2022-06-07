@@ -106,11 +106,11 @@ open icecast config file:
 
 > sudo nano /etc/icecast2/icecast.xml
 ```xml
- <limits>
-        ...
-        <!--<burst-size>65536</burst-size>-->
-        <burst-size>16</burst-size>
-    </limits>
+        <limits>
+                ...
+                <!--<burst-size>65536</burst-size>-->
+                <burst-size>16</burst-size>
+        </limits>
 ```
 
 
