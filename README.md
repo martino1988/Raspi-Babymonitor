@@ -39,62 +39,74 @@ check the ip address from your router
 
 open a shell (e.g. powershell)
 
-> ssh pi@ip.add.re.ss (e.g. ssh pi@192.168.1.3)
+```bash
+ssh pi@ip.add.re.ss (e.g. ssh pi@192.168.1.3)
+```
 
 enter password
 
 Do updates:
 
-> sudo apt-get update -y
-
-> sudo apt-get dist-upgrade -y
-
+```bash
+sudo apt-get update && sudo apt-get dist-upgrade -y
+```
 
 ### RPi-Cam-Web-Interface
 
 see: https://elinux.org/RPi-Cam-Web-Interface
 
-> sudo raspi-config
+```bash
+sudo raspi-config
+```
 
 > 3 Interface Options
 
 > P1 Camera (→ enable and reboot)
 
-> sudo apt-get install git
+```bash
+sudo apt-get install git
 
-> git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
+git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
 
-> cd RPi_Cam_Web_Interface
+cd RPi_Cam_Web_Interface
 
-> ./install.sh
+./install.sh
+```
 
 ### Icecast 2
 
 see: https://wiki.ubuntuusers.de/Icecast2/
-        
-> sudo apt-get install icecast2
 
+```bash
+sudo apt-get install icecast2
+```
+        
 choose your configuration
 
 
 ### Darkice
 
 see: https://wiki.ubuntuusers.de/Darkice/ 
-        
-> sudo apt-get install darkice
 
-> sudo nano /etc/darkice.cfg
+```bash
+sudo apt-get install darkice
+
+sudo nano /etc/darkice.cfg
+```
 
 insert lines from file darkice.cfg (→ this repo!)
 
 Darkice doesn't start at boot like icecast, so create a cronjob:
 
-> crontab -e
+```bash
+crontab -e
+```
 
 instert at bottom:
 
-> @reboot sleep 30 && /bin/darkice -c /etc/darkice.cfg
-
+``` bash
+@reboot sleep 30 && /bin/darkice -c /etc/darkice.cfg
+```
 
 ### Latency
 
@@ -104,7 +116,10 @@ By default, the audio stream has an 8 to 10 second delay (caused by several comp
 
 open icecast config file:
 
-> sudo nano /etc/icecast2/icecast.xml
+```bash
+sudo nano /etc/icecast2/icecast.xml
+```
+
 ```xml
         <limits>
                 ...
