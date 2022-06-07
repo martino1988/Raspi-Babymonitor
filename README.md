@@ -105,12 +105,13 @@ By default, the audio stream has an 8 to 10 second delay (caused by several comp
 open icecast config file:
 
 > sudo nano /etc/icecast2/icecast.xml
-
+```xml
  <limits>
         ...
         <!--<burst-size>65536</burst-size>-->
         <burst-size>16</burst-size>
     </limits>
+```
 
 
 ## TODO
