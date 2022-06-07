@@ -96,10 +96,25 @@ instert at bottom:
 > @reboot sleep 30 && /bin/darkice -c /etc/darkice.cfg
 
 
+### Latency
+
+see: https://icecast.org/docs/icecast-2.4.1/config-file.html#limits
+
+By default, the audio stream has an 8 to 10 second delay (caused by several components). To reduce this to a maximum of 2 - 3 seconds, you can reduce the burst size on the icecast server:
+
+open icecast config file:
+
+> sudo nano /etc/icecast2/icecast.xml
+
+ <limits>
+        ...
+        <!--<burst-size>65536</burst-size>-->
+        <burst-size>16</burst-size>
+    </limits>
+
+
 ## TODO
 
 - Cablemanagement
 
 - Better Mount for the PiCam
-
-- WebRTC for Soundstream
